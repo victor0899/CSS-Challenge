@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-const SearchIcon = () => <div className="search-icon"></div>;
-
 const MainContent = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -13,7 +11,6 @@ const MainContent = () => {
   return (
     <main className="main-content">
       <div className="search-container">
-        <SearchIcon />
         <input
           type="text"
           placeholder="Search"
@@ -154,7 +151,7 @@ const MainContent = () => {
         <div className="share-card card-1">
           <div className="rectangle"></div>
           <p className="card-title-sm">Landing Page</p>
-          <p className="card-date">Created: 20.02.2020</p>
+          <p className="card-date-sm">Created: 20.02.2020</p>
           <div className="share-circle share-circle-1"></div>
           <div className="share-circle share-circle-2"></div>
         </div>
@@ -163,7 +160,7 @@ const MainContent = () => {
         <div className="share-card card-2">
           <div className="rectangle"></div>
           <p className="card-title-sm">Illustration Pack</p>
-          <p className="card-date">Created: 20.02.2020</p>
+          <p className="card-date-sm">Created: 20.02.2020</p>
           <div className="share-circle share-circle-1"></div>
           <div className="share-circle share-circle-2"></div>
           <div className="share-circle share-circle-3"></div>
@@ -173,7 +170,7 @@ const MainContent = () => {
         <div className="share-card card-3">
           <div className="rectangle"></div>
           <p className="card-title-sm">CV Design</p>
-          <p className="card-date">Created: 20.02.2020</p>
+          <p className="card-date-sm">Created: 20.02.2020</p>
           <div className="share-circle share-circle-1"></div>
           <div className="share-circle share-circle-2"></div>
         </div>
