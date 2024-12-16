@@ -69,9 +69,6 @@ const MainContent = () => {
           <div className="square-front"></div>
           <div className="circle"></div>
           <div className="circle"></div>
-          <div className="circle">
-            <span className="plus-three">+3</span>
-          </div>
           <p className="card-title">Client Documents</p>
           <p className="card-date">Created: 4.03.2020</p>
         </div>
@@ -101,11 +98,6 @@ const MainContent = () => {
               </td>
               <td>
                 <span className="table-text">Mar 8, 2020</span>
-                <div className="dots-container">
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                </div>
               </td>
             </tr>
 
@@ -121,11 +113,6 @@ const MainContent = () => {
               </td>
               <td>
                 <span className="table-text">Mar 8, 2020</span>
-                <div className="dots-container">
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                </div>
               </td>
             </tr>
 
@@ -141,11 +128,6 @@ const MainContent = () => {
               </td>
               <td>
                 <span className="table-text">Mar 9, 2020</span>
-                <div className="dots-container">
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                </div>
               </td>
             </tr>
 
@@ -161,11 +143,6 @@ const MainContent = () => {
               </td>
               <td>
                 <span className="table-text">Mar 10, 2020</span>
-                <div className="dots-container">
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                  <div className="dot"></div>
-                </div>
               </td>
             </tr>
           </tbody>

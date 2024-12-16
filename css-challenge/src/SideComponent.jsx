@@ -15,6 +15,9 @@ const SideComponent = () => {
       <h2 className="storage-title">Storage</h2>
 
       <img src={Ellipse1} alt="Ellipse" className="svg-image-1" />
+      <img src={Ellipse2} alt="Ellipse" className="svg-image-2" />
+      <img src={Ellipse3} alt="Ellipse" className="svg-image-3" />
+      <img src={Ellipse4} alt="Ellipse" className="svg-image-4" />
 
       <div className="circle-white"></div>
       <h2 className="percentage-text">85 %</h2>
